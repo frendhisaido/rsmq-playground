@@ -5,6 +5,8 @@ npm install
 python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
+// docker run redis at 6379 if needed
+docker-compose up -d
 ```
 
 ### Demo Queue/Workers
